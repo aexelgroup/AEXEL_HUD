@@ -1,0 +1,207 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 56;
+  objects = {
+/* Begin PBXFileReference section */
+    F001 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+    F002 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+    F003 /* NavModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavModel.swift; sourceTree = "<group>"; };
+    F004 /* RootTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabs.swift; sourceTree = "<group>"; };
+    F005 /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
+    F006 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+    F007 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+    F008 /* AboutLegalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutLegalView.swift; sourceTree = "<group>"; };
+    F009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+    F010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXBuildFile section */
+    B001 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001 /* App.swift */; };
+    B002 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002 /* LoadingView.swift */; };
+    B003 /* NavModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003 /* NavModel.swift */; };
+    B004 /* RootTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004 /* RootTabs.swift */; };
+    B005 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005 /* HUDView.swift */; };
+    B006 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006 /* MapScreen.swift */; };
+    B007 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007 /* SettingsScreen.swift */; };
+    B008 /* AboutLegalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008 /* AboutLegalView.swift */; };
+    B009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F009 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXGroup section */
+    G000 /* Project */ = {
+      isa = PBXGroup;
+      children = (
+        G001 /* AEXELHUD */,
+        G100 /* Products */,
+      );
+      sourceTree = "<group>";
+    };
+    G001 /* AEXELHUD */ = {
+      isa = PBXGroup;
+      children = (
+        F001 /* App.swift */,
+        F002 /* LoadingView.swift */,
+        F003 /* NavModel.swift */,
+        F004 /* RootTabs.swift */,
+        F005 /* HUDView.swift */,
+        F006 /* MapScreen.swift */,
+        F007 /* SettingsScreen.swift */,
+        F008 /* AboutLegalView.swift */,
+        F009 /* Assets.xcassets */,
+        F010 /* Info.plist */,
+      );
+      path = AEXELHUD;
+      sourceTree = "<group>";
+    };
+    G100 /* Products */ = {
+      isa = PBXGroup;
+      children = (
+        P001 /* AEXELHUD.app */,
+      );
+      name = Products;
+      sourceTree = "<group>";
+    };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+    T001 /* AEXELHUD */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = C002 /* Build configuration list for PBXNativeTarget "AEXELHUD" */;
+      buildPhases = (
+        S001 /* Sources */,
+        R001 /* Resources */,
+      );
+      buildRules = ( );
+      dependencies = ( );
+      name = AEXELHUD;
+      productName = AEXELHUD;
+      productReference = P001 /* AEXELHUD.app */;
+      productType = "com.apple.product-type.application";
+    };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+    P000 /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        LastSwiftUpdateCheck = 1500;
+        LastUpgradeCheck = 1500;
+        ORGANIZATIONNAME = AEXELGROUP;
+      };
+      buildConfigurationList = C001 /* Build configuration list for PBXProject "AEXELHUD" */;
+      compatibilityVersion = "Xcode 14.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (en, Base,);
+      mainGroup = G000 /* Project */;
+      productRefGroup = G100 /* Products */;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = ( T001 /* AEXELHUD */, );
+    };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+    R001 /* Resources */ = {
+      isa = PBXResourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = ( B009 /* Assets.xcassets in Resources */, );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+    S001 /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        B001 /* App.swift in Sources */,
+        B002 /* LoadingView.swift in Sources */,
+        B003 /* NavModel.swift in Sources */,
+        B004 /* RootTabs.swift in Sources */,
+        B005 /* HUDView.swift in Sources */,
+        B006 /* MapScreen.swift in Sources */,
+        B007 /* SettingsScreen.swift in Sources */,
+        B008 /* AboutLegalView.swift in Sources */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+    D001 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ALWAYS_SEARCH_USER_PATHS = NO;
+        CLANG_ENABLE_MODULES = YES;
+        CURRENT_PROJECT_VERSION = 1;
+        GENERATE_INFOPLIST_FILE = NO;
+        INFOPLIST_FILE = AEXELHUD/Info.plist;
+        IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+        LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+        PRODUCT_BUNDLE_IDENTIFIER = "com.aexelgroup.hudapp";
+        PRODUCT_NAME = AEXELHUD;
+        SDKROOT = iphoneos;
+        SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+        SWIFT_EMIT_LOC_STRINGS = YES;
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
+        ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+        MARKETING_VERSION = 0.2.0;
+        CODE_SIGN_STYLE = Automatic;
+        DEVELOPMENT_TEAM = "";
+        INFOPLIST_KEY_UIStatusBarHidden = YES;
+        INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+        PRODUCT_DISPLAY_NAME = "AEXEL HUD";
+      };
+      name = Debug;
+    };
+    D002 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ALWAYS_SEARCH_USER_PATHS = NO;
+        CLANG_ENABLE_MODULES = YES;
+        CURRENT_PROJECT_VERSION = 1;
+        GENERATE_INFOPLIST_FILE = NO;
+        INFOPLIST_FILE = AEXELHUD/Info.plist;
+        IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+        LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+        PRODUCT_BUNDLE_IDENTIFIER = "com.aexelgroup.hudapp";
+        PRODUCT_NAME = AEXELHUD;
+        SDKROOT = iphoneos;
+        SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+        SWIFT_EMIT_LOC_STRINGS = YES;
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
+        ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+        MARKETING_VERSION = 0.2.0;
+        CODE_SIGN_STYLE = Automatic;
+        DEVELOPMENT_TEAM = "";
+        INFOPLIST_KEY_UIStatusBarHidden = YES;
+        INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+        PRODUCT_DISPLAY_NAME = "AEXEL HUD";
+      };
+      name = Release;
+    };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+    C001 /* Build configuration list for PBXProject "AEXELHUD" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = ( D001 /* Debug */, D002 /* Release */, );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    C002 /* Build configuration list for PBXNativeTarget "AEXELHUD" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = ( D001 /* Debug */, D002 /* Release */, );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+/* End XCConfigurationList section */
+
+  };
+  rootObject = P000 /* Project object */;
+}
